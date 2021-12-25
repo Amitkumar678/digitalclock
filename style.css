@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    margin-left: 6%;
+    margin-right: 6%;
+    width: 80%;
+    height: 10%;
+}
+.container1{
+    width: 45%;
+    height: 70vh;
+    display: grid;
+    grid-template-rows: 20% 50% 20% 20%;
+}
+#clock_first{
+    
+    background-image: url(./clock.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 200px;
+    position: relative;
+    top: 8px;
+    left: 80px;
+    margin: 10px;
+    height: 100px;
+}
+#left_container_second{
+    width: 400px;
+    position: relative;
+    top: 20px;
+    left: 100px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid black;
+}
+.left_container_second_inner{
+    margin: 2px;
+    width: 100%;
+    height: 33%;
+    padding: 2px;
+    position: relative;
+    border: 2px solid red;
+
+}
+.sun_image{
+    background-image: url(./Sun-logo.jpg);
+    background-repeat: no-repeat;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-size: 80% 100%;
+    width: 15%;
+    height: 40px;
+    position: relative;
+    top: 40px;
+    left: 5px;
+}
+#wake_up_time{
+    margin-left: 30px;
+}
+#lunch_time{
+    margin-left: 50px;
+}
+#nap_time{
+    margin-left: 60px;
+}
+.dropdown{width: 80%;
+height: 100%;
+padding: 20px;
+display: inline-block;
+position: relative;
+top: -15px;
+margin-left: 40px;
+}
+.lunch_image{
+    background-image: url(./Lunch-time.png);
+    background-repeat: no-repeat;
+    background-size: 80% 100%;
+    width: 15%;
+    position: relative;
+    top: 40px;
+    left: 5px;
+    height: 40px; 
+}
+.nap_image{
+    background-image: url(./nap_time.svg);
+    background-repeat: no-repeat;
+    background-size: 80% 100%;
+    width: 15%;
+    height: 40px;
+    position: relative;
+    top: 40px;
+    left: 5px;
+}
+#set_time{
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 5px;
+    background-image: linear-gradient(113deg,#6E54EC,#CB52F8,#FC5EFF,#F1A7C5);
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-688) var(--unnamed-font-size-24)/var(--unnamed);
+    color: white;
+    position: relative;
+    top: 110px;
+    left: 100px;
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+}
+#set_time:hover{
+    background-image: linear-gradient(-113deg,#6E54EC,#CB52F8,#FC5EFF,#F1A7C5);
+    cursor: pointer;
+}
+#container1_last_box{
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: violet;
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+    left: 90px;
+}
+/*  right side */
+#digital_clock{
+    width: 600px;
+    background-color: #EDEDED;
+    height: 80px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    left: 700px;
+    border: 2px solid red;
+    
+}
+#right-clock-time{
+    width: 10%;
+    height: 80%;
+    position: relative;
+    left: -20px;
+    top: 25px;
+    margin-left: 80px;
+    color: gray;
+    float: left;
+    font-size: 12px;
+}
+#right-clock-hour{
+    width: 10%;
+    font-size: 20px;
+    height: 80%;
+    position: relative;
+    top: 10px;
+    left: -10px;
+    color: violet;
+    float: left;
+    font-size: 15px;
+    margin: 5px;
+    padding-top: 5px;  
+}
+#right-clock-minutes{
+    width: 10%;
+    height: 80%;
+    font-size: 20px;
+    color: violet;
+    position: absolute;
+    top: 18px;
+    left: 250px;
+    float: left;
+    font-size: 15px;
+    padding-top: 5px;
+}
+#right-clock-sec{
+    width: 10%;
+    font-size: 20px;
+    height: 80%;
+    color: violet;
+    float: left;
+    position: relative;
+    top: -110px;
+    left: 380px;
+    font-size: 15px;
+    padding-top: 5px; 
+}
+#right-clock-am{
+    width: 15%;
+    height: 80%;
+    color: black;
+    position: relative;
+    top: -120px;
+    left: 400px;
+    float: left;
+    background-color: violet;
+    font-size: 30px;
+    margin-right: 60px;
+    padding: 10px;
+}
+.dout{
+    font-size: 50px;
+    display: grid;
+    width: 2px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+.dout2{
+    font-size: 50px;
+   position: relative;
+    width: 2px;
+    top: -70px;
+    left: 320px;
+    margin-right: 5px;
+}
+#box1{
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 0.71;
+    z-index: -1;
+}
+#box2{
+    width: 60%;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    background-color: white;
+    margin: auto;
+    opacity: 0.22;
+    z-index: -2;
+}
+/* right container 2 down*/
+
+#right_side_container2_down_box1{
+    border: 5px solid green;
+    position: relative;
+    top: -320px;
+    left: 650px;
+    background-color: white;
+    padding-left: 5%;
+    padding-top: 4%;
+    width: 50%;
+    height: 20%;
+    font-size: 30px;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #8E53F0;
+}
+#right_side_container2_down_box2{
+    border: 5px solid black;
+    position: relative;
+    top: -320px;
+    left: 650px;
+    width: 540px;
+    height: 350px;
+    background-color: white;
+    background-image: url(./ballon.png);
+    background-size: 100% 100%;
+    background-position: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
